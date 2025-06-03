@@ -1,0 +1,95 @@
+.delete-btn {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+/* עיצוב כללי */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* כותרת */
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* שורת הוספת משימה */
+#taskInput {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#addTaskBtn {
+    padding: 10px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+/* רשימת משימות */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* כפתור מחיקה */
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}
+
+/* טקסט משני (תאריך) */
+li small {
+    color: #777;
+    font-size: 12px;
+}
+
+/* משימה שהושלמה */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
